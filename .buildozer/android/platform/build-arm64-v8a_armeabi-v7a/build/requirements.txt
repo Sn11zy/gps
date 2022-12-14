@@ -1,0 +1,2 @@
+certifi
+https://github.com/hyturtle/plyer/archive/master.zip

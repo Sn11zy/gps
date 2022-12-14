@@ -1,0 +1,11 @@
+<põhiekraan>:
+    orientation:'vertical'
+    Label:
+        text: root.tekst
+        id: pealkiri
+    TextInput:
+        id: myinput
+        disabled: not root.tekstenable
+    ToggleButton:
+        on_state: root.on_toggle(self)
+        text: 'Vajuta, et alustada'
